@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/navbar'
 import Footer from './components/footer'
 import Home from './components/Home'
+import Main from './components/main'
 
 const App = () => {
   return (
@@ -9,7 +10,7 @@ const App = () => {
     <nav><Navbar/></nav>
   
     <main>
-      <Home/>
+      <Main/>
     </main>
 
     <footer>
